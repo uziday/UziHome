@@ -1,0 +1,18 @@
+@import '../../assets/sass/_variables';
+
+.is-uzi-emoticon{
+	width: 70px;
+}
+.app-hero{
+	.columns{
+		.box{
+			transition: 0.3s;
+			box-shadow: 0px 0px 1px rgb(220,220,220);
+			cursor: pointer;
+			&:hover{
+				transition: 0.3s;
+				transform: translateY(-10px) !important;
+			}
+		}
+	}
+}

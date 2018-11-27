@@ -1,0 +1,63 @@
+@import '../../assets/sass/_variables.scss';
+.landing-hero.hero{
+	background-color: #fff;
+	.hero-body{
+		.nube{
+			position: absolute;
+			z-index: 2;
+			width: auto !important;
+			transition: 0.3s;
+			img{
+				transition: 0.3s;
+				opacity: .7 !important;
+				&:hover{
+					transition: 0.3s;
+					opacity: 1 !important;
+				}
+			}
+			
+		}
+		.nube.nube1{
+			top: 80px;
+			left: 80px;
+		}
+		.nube.nube2{
+			left: 50px;
+		}
+		.nube.nube3
+		{
+			top: 80px;
+			right: 80px;
+		}
+		.nube.nube4{
+			right: 120px;
+		}
+		.container{
+			z-index: 3 !important;
+			img{
+				margin-top: -40px;
+			}
+			.title{
+				transition: 0.3s;
+				padding-bottom: 20px;
+			}
+			.brandLogo{
+				width: 200px;
+			}
+			.i-want-subscribe{
+				background-color: $azul;
+				color: #fff;
+				border-radius: 5px !important;
+				border: 0px !important;
+			}
+		}
+	}
+}
+.animation{
+	transition: 0.3s !important;
+	transform: scale(0.9);
+}
+.animation.zoomIt{
+	transition: 0.3s !important;
+	transform: scale(1) !important;
+}

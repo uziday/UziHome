@@ -1,0 +1,88 @@
+.redes{
+	display: none;
+	.bg-close{
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: rgba(51,51,51,0.2);
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+	}
+	.uzi-modal{
+		width: 80%;
+		left: 10%;
+		box-shadow: 1px 1px 3px grey !important;
+		position: fixed;
+		height: 95vh;
+		z-index: 101;
+		padding: 0;
+		bottom: 0 !important;
+		background-color: rgb(255,255,255);
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		.uzi-modal-content{
+			width: 100%;
+			text-align: center;
+			height: calc(95vh - 60px);
+			.contenido{
+				width: 100%;
+			}
+			.social-network-icon{
+				font-size: 20vw;
+				letter-spacing: 5vw;
+				transition: 0.3s !important;
+				cursor: pointer;
+				color: rgba(51,51,51,0.6);
+				&:hover{
+					&.twitter{
+						color: #2196F3 !important;
+						transition: 0.3s !important;
+						transform: scale(1.06) rotate(-5deg);
+					}
+					&.instagram{
+						color: #E91E63 !important;
+						transition: 0.3s !important;
+						transform: scale(1.06) rotate(5deg);
+					}
+				}
+			}
+		}
+		.uzi-modal-head{
+			width: 100%;
+			padding: 0;
+			height: 60px;
+			padding-top: 13px;
+			padding-bottom: 15px;
+			border-bottom: 1px solid rgb(230,230,230);
+			.uzi-modal-title{
+				width: 100%;
+				text-align: center;
+				font-size: 25px;
+				letter-spacing: 1.7px;
+			}
+			.close-modal{
+				position: absolute;
+				margin-top: -30px;
+				right: 20px;
+				cursor: pointer;
+			}
+		}
+	}
+
+}
+.redes.is-active{
+	display: block;
+}
+@media screen and (max-width: 760px)
+{
+	.uzi-modal{
+		width: 98% !important;
+		left: 1% !important;
+		.uzi-modal-head{
+			.uzi-modal-title{
+				text-align: left;
+			}
+		}
+	}
+}
