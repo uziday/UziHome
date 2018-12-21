@@ -21,6 +21,7 @@ class home extends React.Component {
 		this.onScrollChange();
 		return template.call(this);
 	}
+
 	openNetworks=()=>{
 		var actualDiv = `/${window.location.hash}`;
 		this.setState({

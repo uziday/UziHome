@@ -1,3 +1,4 @@
+
 import "./team.scss";
 import React from "react";
 import {LanguageContextConsumer} from '../../contexts/language.context';
@@ -33,7 +34,7 @@ function template() {
                             <span className="description">
                               {language.team[1]}
                                 &nbsp;
-                              <a href="https://twitter.com/mrzamii" target="_blank">@mrzamii</a>
+                              <a href="https://twitter.com/mrzamii"  rel="noopener noreferrer" target="_blank">@mrzamii</a>
                             </span>
                           </p>
                         </div>
@@ -52,7 +53,7 @@ function template() {
                             <br/>
                             <span className="description">
                               {language.team[2]}&nbsp;
-                              <a href="https://twitter.com/lautaumpierrez" target="_blank">
+                              <a href="https://twitter.com/lautaumpierrez"  rel="noopener noreferrer" target="_blank">
                                 @lautaumpierrez  
                               </a>
                             </span>
@@ -70,11 +71,11 @@ function template() {
                 </div>
                 {/* Founders Mobile */}
 
-                <div className="columns is-multiline  is-hidden-desktop">
+                <div className="columns is-multiline is-hidden-desktop">
                   <div className="column is-12">
                     <div className="card">
                       <div className="card-image">
-                        <figure className="image is-4by3">
+                        <figure className="image is-3by2">
                           <img alt="[SAMI]" src={require('../../assets/images/founder.sam.png')}/>
                         </figure>
                       </div>
@@ -87,7 +88,7 @@ function template() {
                         </div>
 
                         <div className="content">
-                          { language.team[1] }<a target="_blank" href="https://twitter.com/mrzamii">@mrzamii</a>.
+                          { language.team[1] }<a  rel="noopener noreferrer" target="_blank" href="https://twitter.com/mrzamii">@mrzamii</a>.
                         </div>
                       </div>
                     </div>
@@ -107,9 +108,8 @@ function template() {
                             <p className="subtitle is-6">@lautaumpierrez</p>
                           </div>
                         </div>
-
                         <div className="content">
-                        {language.team[2]}<a target="_blank" href="https://twitter.com/lautaumpierrez">@lautaumpierrez</a>.
+                        {language.team[2]}<a  rel="noopener noreferrer" target="_blank" href="https://twitter.com/lautaumpierrez">@lautaumpierrez</a>.
                         </div>
                       </div>
                     </div>

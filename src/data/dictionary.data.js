@@ -9,20 +9,20 @@ export default{
 			'¡Quiero ser Uzer!'
 		],
 		app:[
-			'Como funciona el metodo UziDay',
+			'Cómo funciona el método UziDay',
 			'Selecciona tu tarea, su inicio y final',
-			'Consiguelo lo más rapido posible',
+			'Consíguelo lo más rápido posible',
 			'El tiempo restante se convierte en UziScore',
-			'El tiempo restante se convierte en UziScore'
+			'Entre más UziScore tengas subirás a diferentes niveles!'
 		],
 		redes:[
 			'Redes Sociales',
-			'Siguenos en nuestras redes sociales.'
+			'Síguenos en nuestras redes sociales.'
 		],
 		team:[
 			'Fundadores',// seciton title
 			'Hola, soy Sam tengo 14 años, me encanta aprender sobre tecnología y el mundo de las startups. Ya que creo que el mundo se rige en 2 cosas: código y dinero  - Si no te divierte, no vale la pena. ',
-			'Qué tal?, soy Lauta Tengo 14 años, estoy apasionadamente enamorada de la programación, considero que aprender a programar es un requisito básico de cualquier profesional. "El único lugar donde el éxito viene antes del trabajo es en el diccionario". Donald Kendall'
+			'Qué tal?, soy Lauta Tengo 14 años, estoy apasionadamente enamorado de la programación, considero que aprender a programar es un requisito básico de cualquier profesional. "El único lugar donde el éxito viene antes del trabajo es en el diccionario". Donald Kendall'
 		],
 		navbarItems: [
 			{
@@ -49,7 +49,7 @@ export default{
 			'Select your task, its start and end',
 			'Get it as fast as possible',
 			'The remaining time becomes UziScore',
-			'The remaining time becomes UziScore'
+			'The more UziScore you have, you will go up to different levels!'
 		],
 		redes:[
 			'Social Networks',

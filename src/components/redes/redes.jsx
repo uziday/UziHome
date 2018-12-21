@@ -1,3 +1,4 @@
+/* eslint-disable */
 import "./redes.scss";
 import React from "react";
 import {LanguageContextConsumer} from '../../contexts/language.context';
