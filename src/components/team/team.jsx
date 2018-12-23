@@ -75,7 +75,7 @@ function template() {
                   <div className="column is-12">
                     <div className="card">
                       <div className="card-image">
-                        <figure className="image is-3by2">
+                        <figure className="image is-3by3">
                           <img alt="[SAMI]" src={require('../../assets/images/founder.sam.png')}/>
                         </figure>
                       </div>
@@ -97,7 +97,7 @@ function template() {
                   <div className="column is-12">
                     <div className="card">
                       <div className="card-image">
-                        <figure className="image is-4by3">
+                        <figure className="image is-3by3">
                           <img src={require('../../assets/images/founder.lauti.png')} alt="[LAUTI]"/>
                         </figure>
                       </div>
