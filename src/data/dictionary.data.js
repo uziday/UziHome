@@ -17,7 +17,7 @@ export default{
 		],
 		redes:[
 			'Redes Sociales',
-			'Síguenos en nuestras redes sociales.'
+			'Síguenos Ya!'
 		],
 		team:[
 			'Fundadores',// seciton title
