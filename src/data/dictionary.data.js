@@ -21,8 +21,8 @@ export default{
 		],
 		team:[
 			'Fundadores',// seciton title
-			'Hola, soy Sam tengo 14 años, me encanta aprender sobre tecnología y el mundo de las startups. Ya que creo que el mundo se rige en 2 cosas: código y dinero  - Si no te divierte, no vale la pena. ',
-			'Qué tal?, soy Lauta Tengo 14 años, estoy apasionadamente enamorado de la programación, considero que aprender a programar es un requisito básico de cualquier profesional. "El único lugar donde el éxito viene antes del trabajo es en el diccionario". Donald Kendall'
+			'Hola, soy Sam tengo 15 años, me encanta aprender sobre tecnología y el mundo de las startups. Ya que creo que el mundo se rige en 2 cosas: código y dinero  - Si no te divierte, no vale la pena. ',
+			'Qué tal?, soy Lauta Tengo 15 años, estoy apasionadamente enamorado de la programación, considero que aprender a programar es un requisito básico de cualquier profesional. "El único lugar donde el éxito viene antes del trabajo es en el diccionario". Donald Kendall'
 		],
 		navbarItems: [
 			{

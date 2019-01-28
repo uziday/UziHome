@@ -27,7 +27,7 @@ function template() {
               </div>
             	<div className="container has-text-centered">
                 <div className="animated pulse">
-                  <img alt="[UZIDAY LOGO]" className="brandLogo" src={require('../../assets/images/uziday.logo.png')}/>
+                  <img alt="[UZIDAY LOGO]" className="brandLogo" src={require('../../assets/images/uziday.logo.png')} width={500}/>
                   <br/>&nbsp;<br/>
               		<p className={"title is-2 has-text-weight-light"}>
               			{language.presentation[0]}
