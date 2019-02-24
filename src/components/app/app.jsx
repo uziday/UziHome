@@ -55,9 +55,8 @@ function template() {
                         <p className="title is-4 has-text-weight-light has-text-dark">
                           {language.app[4]}
                         </p>
-                        <br/>
-                        <img className="is-uzi-emoticon" src={require('../../assets/images/smile.svg')} alt="[SCORE]"/> &nbsp;
-                        <img className="is-uzi-emoticon" src={require('../../assets/images/cool.svg')} alt="[SCORE]"/>
+                        <img className="is-uzi-emoticon" src={require('../../assets/images/dev.png')} alt="[SCORE]"/>
+                        <img className="is-uzi-emoticon" src={require('../../assets/images/astronaut.png')} alt="[SCORE]"/> &nbsp;
                       </div>
                     </div>
 
