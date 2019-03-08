@@ -1,7 +1,6 @@
 import "./landing-hero.scss";
 import React from "react";
 import NavbarShape from '../navbar-shape/';
-import cloud from '../../assets/images/nubesita.png';
 import {LanguageContextConsumer} from '../../contexts/language.context';
 function template() {
   return (
@@ -9,38 +8,29 @@ function template() {
       {({language})=>(
         <div className="landing-section">
           <NavbarShape></NavbarShape>
-          <div className="hero-uziday-page landing-hero hero is-fullheight" id="presentation">
-            <div className="hero-body">
-              <div className="images is-hidden-touch">
-                <div className="nube nube1 animated fadeInLeft slower ">
-                  <img alt="[CLOUD]" src={cloud}/>
-                </div>
-                <div className="nube nube2 animated fadeInLeft slower animation-delay-200">
-                  <img alt="[CLOUD]" src={cloud}/>
-                </div>
-                <div className="nube nube3 animated fadeInRight slower">
-                  <img alt="[CLOUD]" src={cloud}/>
-                </div>
-                <div className="nube nube4 animated fadeInRight slower animation-delay-200">
-                  <img alt="[CLOUD]" src={cloud}/>
+          <div className="uzmain">
+            <div className="uzleft">
+              <div className="uztitle">
+                <h1><b className="uzbold">Transformaremos la manera</b> <br/> en que manejas tu día</h1>
+              </div>
+              <div className="uzdesc">
+                <p><span className="uzbrandshort">UziDay</span> es la app que llevará tu productividad
+                  al siguiente nivel. Fácilmente y a tu ritmo</p>
+              </div>
+              <button disabled="disabled" className="appbutton">IR A LA APP</button>
+              <h4 className="uzaprovecha">Aprovecha al máximo tu tiempo</h4>
+            </div>
+            <div className="uzright">
+              <div className="uzcircle">
+                <div className="circlecontent">
+                  <h2>Uzers opinan</h2>
+                  <p>UziDay es un reto para mí,
+                    eso me motiva y me ha ayudado
+                    a administrar mi tiempo</p>
+                  <h3>Adolfo, Bogotá.</h3>
                 </div>
               </div>
-            	<div className="container has-text-centered">
-                <div className="animated pulse">
-                  <img alt="[UZIDAY LOGO]" className="brandLogo" src={require('../../assets/images/uziday.logo.png')} width={500}/>
-                  <br/>&nbsp;<br/>
-              		<p className={"title is-2 has-text-weight-light"}>
-              			{language.presentation[0]}
-              		</p>
-                  <p className="subtitle is-5">
-                    {language.presentation[1]}
-                  </p>
-                  <a href="https://mailchi.mp/d3bc4cb8c456/uziday-notifications"  rel="noopener noreferrer" target="_blank" className="button i-want-subscribe is-medium">
-                    {language.presentation[2]}
-                  </a>
-                </div>
-            	</div>
-            </div>
+          </div>
           </div>
         </div>)}
     </LanguageContextConsumer>

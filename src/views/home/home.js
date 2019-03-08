@@ -65,16 +65,16 @@ class home extends React.Component {
 			}
 		}		
 		window.onscroll = ()=>{
-			let $html = document.querySelector('html');
-			let $landing = document.getElementById('presentation');
-			let $app = document.getElementById('app');
-			if($html.scrollTop > ($landing.clientHeight-200) && $html.scrollTop <= ($landing.clientHeight + $app.clientHeight)){
-				this.setState({app:{animation: true}});
-			}
-			if($html.scrollTop > (($landing.clientHeight + $app.clientHeight)-200))
-			{
-				this.setState({team:{animation:true}});
-			}
+			// let $html = document.querySelector('html');
+			// let $landing = document.getElementById('presentation');
+			// let $app = document.getElementById('app');
+			// if($html.scrollTop > ($landing.clientHeight-200) && $html.scrollTop <= ($landing.clientHeight + $app.clientHeight)){
+			// 	this.setState({app:{animation: true}});
+			// }
+			// if($html.scrollTop > (($landing.clientHeight + $app.clientHeight)-200))
+			// {
+			// 	this.setState({team:{animation:true}});
+			// }
 		}
 	}
 }

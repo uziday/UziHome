@@ -11,11 +11,11 @@ div.navbar-item{
 .avatar-img{
 	border-radius: 50%;
 }
-.hero-uziday-page{
-	height: calc(100vh - 70px) !important;
-	min-height: calc(100vh - 70px) !important;
-	max-height: calc(100vh - 70px) !important;
-}
+// .hero-uziday-page{
+// 	height: calc(100vh - 70px) !important;
+// 	min-height: calc(100vh - 70px) !important;
+// 	max-height: calc(100vh - 70px) !important;
+// }
 body,html{
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth !important;
@@ -33,6 +33,11 @@ body,html{
 	opacity: 0;
 }
 .is-uziday-primary{
-	background-color: $naranja !important;
+	background-color: #423A74 !important;
 	color: #fff !important;
+}
+
+.hero.is-fullheight {
+    min-height: none;
+    padding: none;
 }

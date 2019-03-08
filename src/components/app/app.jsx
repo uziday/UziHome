@@ -1,70 +1,37 @@
 import "./app.scss";
 import React from "react";
-import NavbarShape from '../navbar-shape/';
+// import NavbarShape from '../navbar-shape/';
 import {LanguageContextConsumer} from '../../contexts/language.context';
 function template() {
   return (
     <LanguageContextConsumer>
         {({language})=>(
-            <section className="hero app-hero is-fullheight is-light" id="app">
-              <div className="hero-head">
-                <NavbarShape></NavbarShape>
-              </div>
-            	<div className="hero-body">
-            		<div className="container">
-                  <p className="title is-2 has-text-weight-light has-text-centered">
-                    {language.app[0]}
-                  </p>
-                  <br/>
-                  <div className="columns is-multiline">
-                    <div className={"column is-6 "+(this.props.animation ? 'animated fadeInLeft': 'is-hidden-uziday-version')}>
-                      <div className="box has-text-centered">
-                        <p className="title is-4 has-text-weight-light has-text-dark">
-                          {language.app[1]}
-                        </p>
-                        <p className="subtitle has-text-grey">
-                          7:00 - 7:30
-                        </p>
-                        <img src={require('../../assets/images/play.svg')} alt="[PLAY]" className="is-uzi-emoticon"/>  
+            <section className="hero app-hero is-light" id="app">
+            	<div className="uz-hero-body">
+                <div className="hero-left">
+                  <img src={require('../../assets/images/muchacho.svg')} alt="UziPeople" className="uzguy"/>
+                </div>
+                <div className="hero-right">
+                  <h1>El método <b>UziDay</b></h1>
+                    <div className="pasos">
+                      <div className="uzfrst">
+                        <div className="children">
+                          <p>Selecciona tu tarea, su inicio y final</p>
+                        </div>
+                        <div className="children">
+                          <p>Consiguelo lo mas rapido posible</p>
+                        </div>
                       </div>
-                    </div>
-                    <div className={"column is-6 "+(this.props.animation ? 'animated fadeInRight' : 'is-hidden-uziday-version')}>
-                      <div className="box has-text-centered">
-                        <p className="title is-4 has-text-weight-light has-text-dark">
-                          {language.app[2]}
-                        </p>
-                        <p className="subtitle has-text-grey">
-                          7:00 - 7:15 - 7:30
-                        </p>
-                        <img src={require('../../assets/images/power.svg')} className="is-uzi-emoticon" alt="[THUNDER]"/>
+                      <div className="uzscnd">
+                        <div className="children">
+                          <p>El tiempo restante se convierte en UziScore</p>
+                        </div>
+                        <div className="children">
+                          <p>Sube de nivel con tu UziScore</p>
+                        </div>
                       </div>
-                    </div>
-                    <div className={"column is-6 animation-delay-200 "+(this.props.animation ? 'animated fadeInLeft': 'is-hidden-uziday-version')}>
-                      <div className="box has-text-centered">
-                        <p className="title is-4 has-text-weight-light has-text-dark">
-                          {language.app[3]}
-                        </p>
-                        <br/>
-                        <img className="is-uzi-emoticon" src={require('../../assets/images/arrow-down.svg')} alt="[LEVEL DOWN]"/>
-                        <span>&nbsp;</span>
-                        <img className="is-uzi-emoticon" src={require('../../assets/images/arrow-up.svg')} alt="[LEVEL UP]"/>                  
-                      </div>
-                    </div>
-                    <div className={"column is-6 animation-delay-200 "+(this.props.animation ? 'animated fadeInRight': 'is-hidden-uziday-version')}>
-                      <div className="box has-text-centered">
-                        <p className="title is-4 has-text-weight-light has-text-dark">
-                          {language.app[4]}
-                        </p>
-                        <img className="is-uzi-emoticon" src={require('../../assets/images/dev.png')} alt="[SCORE]"/>
-                        <img className="is-uzi-emoticon" src={require('../../assets/images/astronaut.png')} alt="[SCORE]"/> &nbsp;
-                      </div>
-                    </div>
-
                   </div>
-            		</div>
-            	</div>
-            	<div className="hero-foot">
-            		
+                </div>
             	</div>
           </section>)}
     </LanguageContextConsumer>

@@ -1,17 +1,37 @@
 @import '../../assets/sass/_variables';
 
-.is-uzi-emoticon{
-	width: 100px;
+.hero.is-fullheight {
+	min-height: 500px;
+	padding: 20px;
 }
-.app-hero{
-	.columns{
-		.box{
-			transition: 0.3s;
-			box-shadow: 0px 0px 1px rgb(220,220,220);
-			&:hover{
-				transition: 0.3s;
-				transform: translateY(-10px) !important;
-			}
-		}
-	}
+#app{
+	background-color: #423A74;
+}
+.uz-hero-body{
+	height: 500px;
+	width: 1300px;
+	background-color: #fff;
+	padding: 30px;
+	border-top-right-radius: 450px;
+	border-bottom-right-radius: 450px;
+	display: flex;
+	justify-content: space-around;
+}
+.uzguy {
+	width: 250px;
+}
+.hero-right {
+	padding: 60px 60px 0px 0px;
+}
+.hero-right h1{
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+.pasos {
+	border: 1px solid red;
+	width: 600px;
+}
+// 
+.uzfrst, .uzscnd{
+	border: 1px solid red;
 }

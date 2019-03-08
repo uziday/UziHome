@@ -1,63 +1,79 @@
 @import '../../assets/sass/_variables.scss';
-.landing-hero.hero{
-	background-color: #fff;
-	.hero-body{
-		.nube{
-			position: absolute;
-			z-index: 2;
-			width: auto !important;
-			transition: 0.3s;
-			img{
-				transition: 0.3s;
-				opacity: .7 !important;
-				&:hover{
-					transition: 0.3s;
-					opacity: 1 !important;
-				}
-			}
-			
-		}
-		.nube.nube1{
-			top: 80px;
-			left: 80px;
-		}
-		.nube.nube2{
-			left: 50px;
-		}
-		.nube.nube3
-		{
-			top: 80px;
-			right: 80px;
-		}
-		.nube.nube4{
-			right: 120px;
-		}
-		.container{
-			z-index: 3 !important;
-			img{
-				margin-top: -40px;
-			}
-			.title{
-				transition: 0.3s;
-				padding-bottom: 20px;
-			}
-			.brandLogo{
-				width: 300px 
-			}
-			.i-want-subscribe{
-				background-color: $azul;
-				color: #fff;
-				border-radius: 5px !important;
-				border: 0px !important;
-			}
-		}
-	}
+@import url('https://fonts.googleapis.com/css?family=Muli');
+*{
+	font-family: 'Muli', sans-serif;
 }
-.animation{
-	transition: 0.3s !important;
-	transform: scale(0.9);
+.uzmain{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
-.animation.zoomIt{
-	transition: 0.3s !important;
-	transform: scale(1) !important;
+.landing-section {
+	background-color: #423A74;
+	color: #fff;
+	padding: 50px;
+}
+.uzleft {
+}
+.uztitle{
+	font-size: 45px;
+	font-weight: 800;
+	line-height: 1.25;
+	margin-top: 30px;
+}
+.uzbold{
+	font-weight: bolder;
+}
+.uzdesc{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	width: 550px;
+	height: 71px;
+	color: $rosa;
+	font-size: 20px;
+	font-weight: 500;
+}
+.uzbrandshort{
+	font-family: 'Fredoka One', cursive;
+}
+.appbutton{
+	width: 180px;
+	height: 40px;
+	font-size: 18px;
+	appearance: none;
+	background-color: #F55F52;
+	border: none;
+	color: #fff;
+	margin-top: 20px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 800;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	border-radius: 50px;
+}
+.uzaprovecha{
+	font-size: 17px;
+	padding: 60px 0;
+}
+
+.uzcircle {
+	padding: 30px;
+	background-color: #3A326B;
+	border-radius: 50%;
+	text-align: center;
+	width: 350px;
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.uzcircle h2 {
+	font-weight: 800;
+	font-size: 22px;
+	color: #f55f52;
+	padding-bottom: 20px;
+}
+.uzcircle h3 {
+	font-size: 20px;
+	font-weight: 800;
+	padding-top: 20px;
 }

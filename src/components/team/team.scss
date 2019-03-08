@@ -1,5 +1,12 @@
 @import '../../assets/sass/_variables';
-
+#team {
+	background-color: #FA766A;
+	padding: 0;
+	margin: 0;
+}
+.hero-body{
+	height: 600px;
+}
 .founder {
 	// border: 1px solid red;
 	width: 210px;
@@ -9,12 +16,12 @@
 		animation: cubic-bezier(ease-out)
 	}
 }
-// .title{
-// 	font-weight: 800;
-// 	color: $naranja;
-// }
+.title{
+	font-weight: 800;
+	color: #fff;
+}
 .founder a {
-	color: $naranja;
+	color: $morado;
 	font-weight: 800;
 	font-size: 18px;
 }
@@ -23,9 +30,25 @@
     height: auto;
 	width: 500px;
 }
+.founder h3 {
+	color: #fff;
+}
 .founders {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	padding: 80px;
+}
+.avatar-img {
+	border: 2px solid #fff;
+	padding: 5px;
+}
+.uzteamtl{
+	color: #fff;
+	font-weight: bold;
+	font-size: 50px;
+}
+.montaña1{
+	position: relative;
+	width: 200px;
 }

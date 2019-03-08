@@ -57,7 +57,7 @@ export default{
 			'Follow us on our social networks.'
 		],
 		team:[
-			'Founders',// seciton title
+			'Team',// seciton title
 			"Hi, I'm Sam I'm 14 years old, I love learn about technology and the world of startups. Since I believe that the world is ruled by 2 things: code and money - If you do not enjoy it, it's not worth it. ",
 			"Whats up?, I'm Lauta I'm 14 years old, I'm passionately in love with programming, I think learning to program is a basic requirement of any professional. ''The only place where success comes before work is in the dictionary.''Donald Kendall",
 			"I'm Tania and I do interface design. Creating and communicating is my job (and my hobbie), I enjoy the process as much as the result. I like dogs and esquite!. 'What you do on a daily basis is what you will become good at' "

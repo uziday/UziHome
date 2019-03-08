@@ -9,9 +9,10 @@ function template() {
                 <nav className="navbar is-fixed-top">
                 	<div className="navbar-brand">
                 		<div className="navbar-item">
-                			<a href="/#" className="title is-3 has-text-weight-bold logo-in-text">
-                				{ title }
-                			</a>
+                            <div className="uzbrand">
+                			    <a href="/#" className="title is-3 has-text-weight-bold logo-in-text">                				{ title }
+                			    </a>
+                            </div>
                 		</div>
                         <div role="button" onClick={this.toggle} className={"navbar-burger "+ (this.state.isActive ? 'is-active': '')} aria-label="menu" aria-expanded="false">
                           <span aria-hidden="true"></span>
