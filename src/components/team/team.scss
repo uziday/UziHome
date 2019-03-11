@@ -1,11 +1,15 @@
 @import '../../assets/sass/_variables';
 #team {
 	background-color: #FA766A;
+	// background-image: url("../../assets/images/plantas-bg.svg");
+	// background-repeat: no-repeat;
+	// background-size:  700px 1000px;
+	// background-position: bottom; 
 	padding: 0;
 	margin: 0;
 }
 .hero-body{
-	height: 600px;
+	height: auto;
 }
 .founder {
 	// border: 1px solid red;
@@ -50,5 +54,5 @@
 }
 .montaña1{
 	position: relative;
-	width: 200px;
+	width: 250px;
 }

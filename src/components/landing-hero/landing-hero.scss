@@ -7,13 +7,15 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 }
 .landing-section {
 	background-color: #423A74;
+	background-image: url("../../assets/images/nubes-bg.svg");
+	background-size: 1500px;
+	background-repeat: no-repeat;
 	color: #fff;
 	padding: 50px;
-}
-.uzleft {
 }
 .uztitle{
 	font-size: 45px;
@@ -23,6 +25,12 @@
 }
 .uzbold{
 	font-weight: bolder;
+}
+.uzigirl {
+	width: 160px;
+	position: absolute;
+	right: 80px;
+	top: 430px;
 }
 .uzdesc{
 	margin-top: 50px;
@@ -50,6 +58,10 @@
 	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 	border-radius: 50px;
 }
+.appbutton:hover{
+	transform: scale(1.1)
+}
+
 .uzaprovecha{
 	font-size: 17px;
 	padding: 60px 0;

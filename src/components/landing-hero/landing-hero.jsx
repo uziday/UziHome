@@ -32,6 +32,7 @@ function template() {
               </div>
           </div>
           </div>
+          <img src={require('../../assets/images/chica.svg')} alt="UziGirl" className="uzigirl"/>
         </div>)}
     </LanguageContextConsumer>
   );

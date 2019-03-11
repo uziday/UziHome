@@ -24,7 +24,7 @@ function template() {
                 		<div className="navbar-start"></div>
                 		<div className="navbar-end">
                 			{items.map((item,index)=>(
-                                <a className="navbar-item navbar-component-items" href={item.url} key={index}>
+                                <a className="navbar-item navbar-component-items options" href={item.url} key={index}>
                     				{item.text}
                     			</a>
                             ))}

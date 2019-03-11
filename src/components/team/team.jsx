@@ -32,7 +32,6 @@ function template() {
                 </div>
             	</div> 
             </div>
-            <img src={require('../../assets/images/montaña1.svg')} className="montaña1"/>
           </section>
         </div>)}
       </LanguageContextConsumer>

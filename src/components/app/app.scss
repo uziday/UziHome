@@ -16,22 +16,35 @@
 	border-bottom-right-radius: 450px;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .uzguy {
-	width: 250px;
+	width: 230px;
+}
+.methodtlt{
+	// border: 1px solid red;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.uzclock{
+	width: 100px;
+	padding-right: 15px;
 }
 .hero-right {
 	padding: 60px 60px 0px 0px;
 }
 .hero-right h1{
 	font-size: 40px;
-	padding-bottom: 30px;
 }
 .pasos {
-	border: 1px solid red;
+	// border: 1px solid red;
 	width: 600px;
+	font-size: 18px;
+	display: flex;
+	padding: 10px;
+	font-weight: bold;
 }
-// 
-.uzfrst, .uzscnd{
-	border: 1px solid red;
+.pasos ul li{
+	padding: 8px;
 }
