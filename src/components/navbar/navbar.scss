@@ -43,6 +43,15 @@
 		}
 	}
 }
+#marca  {
+	font-family: Fredoka one;
+}
+.navbar-menu.is-active {
+	background-color: #423A74;
+}
+.navbar-item img {
+    max-height: 56px;
+}
 .navbar .navbar-menu .navbar-item {
 	color: #fff;
 	padding: 20px;
@@ -57,20 +66,20 @@
 }
 .uzbrand {
 	display: flex;
-	justify-content: center;
 	align-items: center;
 }
-.uzbrand img {
-	width: 50px;
+.social-network-icon {
+	padding: 15px;
+	color: #fff;
+	margin-right: 15px;
 }
 .navbar{
 	background-color: #423A74;
 	color: #fff;
 	padding-left: 24px;
-	height: 70px;
+	height: 80px;
 	.navbar-brand{
 		div.navbar-item{
-			font-family: 'Fredoka One', cursive;
 			font-weight: 400;
 			cursor: pointer;
 			transition: all 0.3s;
@@ -87,16 +96,9 @@
 		}
 
 	}
-	.navbar-end {
-
-	}
 	.navbar-menu{
 		padding-right: 15px;
 		.navbar-item{
-			img {
-				width: 70px;
-				height: 70px;
-			}
 			transition: 0.3s;
 			// padding: 5px 20px 0px 20px;
 			font-size: 18px;		

@@ -14,16 +14,16 @@ function template() {
                 <div className="hero-right">
                   <div className="methodtlt">
                     <img src={require('../../assets/images/reloj.svg')} alt="UziClock" className="uzclock"/>
-                    <h1>El método <b>UziDay</b></h1>
+                    <h1><b>{language.app[0]}</b></h1>
                   </div>
                   <div className="pasos">
                     <ul>
-                      <li>Selecciona tu tarea, su inicio y final</li>
-                      <li>Consiguelo lo mas rapido posible</li>
+                      <li>{language.app[1]}</li>
+                      <li>{language.app[2]}</li>
                     </ul>
                     <ul>
-                      <li>El tiempo restante se convierte en UziScore</li>
-                      <li>Sube de nivel con tu UziScore</li>
+                      <li>{language.app[3]}</li>
+                      <li>{language.app[4]}</li>
                     </ul>
                   </div>
                 </div>

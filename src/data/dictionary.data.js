@@ -4,16 +4,21 @@ export default{
 		language:'Idioma',
 		networks: 'Redes',
 		presentation:[
-			'Somos UziDay',
-			'Transformaremos la forma en la que manejas tu día',
-			'¡Quiero ser Uzer!'
+			'Transformaremos la manera',
+			'en que manejas tu día',
+			'UziDay',
+			' es la app que llevará tu productividad al siguiente nivel. Fácilmente y a tu ritmo',
+			'IR A LA APP',
+			'Aprovecha al máximo tu tiempo',
+			'Uzers opinan',
+			'UziDay es un reto para mí, eso me motiva y me ha ayudado a administrar mi tiempo'
 		],
 		app:[
-			'Cómo funciona el método UziDay',
+			'El método UziDay',
 			'Selecciona tu tarea, su inicio y final',
 			'Consíguelo lo más rápido posible',
 			'El tiempo restante se convierte en UziScore',
-			'Entre más UziScore tengas subirás a diferentes niveles!'
+			'Sube de nivel con tu UziScore!'
 		],
 		redes:[
 			'Redes Sociales',
@@ -38,19 +43,24 @@ export default{
 	},
 	english:{
 		presentation:[
-			'We are UziDay',
-			'We will transform the way you handle your day',
-			'¡I want to be a Uzer!'
+			'Change the way',
+			'you handle your day!',
+			'UziDay',
+			' is the app that will take your productivity to the next level. Easily and at your own pace',
+			'GO APP',
+			'Make the most of your time',
+			'Uzers say',
+			'UziDay is a challenge for me, that motivates me and has helped me manage my time'
 		],
 		lang: 'en',
 		language:'Language',
 		networks: 'Networks',
 		app:[
-			'How the UziDay method works',
+			'The UziDay method',
 			'Select your task, its start and end',
 			'Get it as fast as possible',
 			'The remaining time becomes UziScore',
-			'The more UziScore you have, you will go up to different levels!'
+			'Level up with your UziScore!'
 		],
 		redes:[
 			'Social Networks',

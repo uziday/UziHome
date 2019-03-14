@@ -19,7 +19,7 @@ function template() {
                 <br/>&nbsp;
                 <br/>
                 <p className="title is-2 has-text-grey-darken has-text-weight-light">
-                  {language.redes[1]}
+                  {language.redes[1]} 
                 </p>
                 <br/>
                 <div className="contenido">

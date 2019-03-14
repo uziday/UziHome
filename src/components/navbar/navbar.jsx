@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import "./navbar.scss";
 import React from "react";
 import {LanguageContextConsumer} from '../../contexts/language.context';
@@ -9,10 +10,11 @@ function template() {
                 <nav className="navbar is-fixed-top">
                 	<div className="navbar-brand">
                 		<div className="navbar-item">
-                            <div className="uzbrand">
-                			    <a href="/#" className="title is-3 has-text-weight-bold logo-in-text">                				{ title }
+                      <div className="uzbrand">
+                          <img src={require('../../assets/images/uzimedio.png')}alt=""/>
+                			    <a href="/#" className="title is-3 has-text-weight-bold logo-in-text" id="marca">                				{ title }
                 			    </a>
-                            </div>
+                      </div>
                 		</div>
                         <div role="button" onClick={this.toggle} className={"navbar-burger "+ (this.state.isActive ? 'is-active': '')} aria-label="menu" aria-expanded="false">
                           <span aria-hidden="true"></span>
@@ -28,10 +30,9 @@ function template() {
                     				{item.text}
                     			</a>
                             ))}
-                            <div onClick={this.props.openNetworks} className="navbar-item">
-                                {language.networks}
-                            </div>
                            <div className="navbar-item has-text-centered">
+                            <a href="https://twitter.com/uzi_day" className="twitter fab fa-twitter social-network-icon" target="_blank" rel="noopener noreferrer"></a>
+                            <a href="https://instagram.com/uzi_day" className="instagram fab fa-instagram social-network-icon" target="_blank" rel="noopener noreferrer"></a>
                                 <span>
                                     <div className="buttons has-addons switch-uziday">
                                         <span onClick={setSpanish} className={"button "+(language.lang ==='es' ? ' is-active is-uziday-primary': '')}>ES</span>

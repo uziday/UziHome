@@ -25,6 +25,7 @@
 	// border: 1px solid red;
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	margin-bottom: 30px;
 }
 .uzclock{
@@ -47,4 +48,32 @@
 }
 .pasos ul li{
 	padding: 8px;
+}
+@media (max-width: 769px) {
+	.uz-hero-body{
+		text-align: center;
+		height: auto;
+		border-top-right-radius: 50px;
+		border-bottom-right-radius: 50px;
+		width: auto;
+		justify-content: center;
+	}
+	.hero-right{
+		text-align: center;
+		padding: 0;
+	}
+	.uzguy {
+		width: 180px;
+		margin-bottom: 50px;
+	}
+	.methodtlt{
+		font-size: 20px;
+		display: flex;
+		justify-content: center;
+	}
+	.pasos{
+		flex-wrap: wrap;
+		width: auto;
+		justify-content: center;
+	}
 }

@@ -52,7 +52,7 @@
 	background-color: #F55F52;
 	border: none;
 	color: #fff;
-	margin-top: 20px;
+	margin-top: 50px;
 	font-family: 'Muli', sans-serif;
 	font-weight: 800;
 	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -88,4 +88,24 @@
 	font-size: 20px;
 	font-weight: 800;
 	padding-top: 20px;
+}
+@media (max-width: 769px) {
+	.uztitle {
+		font-size: 35px;
+	}
+	.uzdesc {
+		width: auto;
+		font-size: 23px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.uzmain{
+		text-align: center;
+	}
+	.uzigirl{
+		display: none;
+	}
+	.uzaprovecha{
+		font-size: 20px;
+	}
 }
