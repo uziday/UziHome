@@ -17,17 +17,14 @@ function template() {
                   <div className="founder sam">
                     <img alt="[Founder Samuel García]" className="avatar-img" src={require('../../assets/images/founder.sam.png')}/>
                     <a className="nameteam" rel="noopener noreferrer" href="https://twitter.com/mrzamii" target="_blank">Sam Garcia</a>
-                    <h3>CEO</h3>
                   </div>
                   <div className="founder lauta">
                     <img alt="[Founder Samuel García]" className="avatar-img" src={require('../../assets/images/founder.lauti.png')}/>
                     <a className="nameteam" rel="noopener noreferrer" href="https://twitter.com/lautaumpierrez" target="_blank">Lautaro Umpierrez</a>
-                    <h3>CTO</h3>
                   </div>
                   <div className="founder tania">
                     <img alt="[Founder Samuel García]" className="avatar-img" src={require('../../assets/images/team.tania.jpg')}/>
                     <a className="nameteam" rel="noopener noreferrer" href="https://www.instagram.com/tania__rr/" target="_blank">Tania Ramirez</a>
-                    <h3>Design</h3>
                   </div>
                 </div>
             	</div> 

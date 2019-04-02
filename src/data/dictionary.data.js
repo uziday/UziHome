@@ -7,18 +7,18 @@ export default{
 			'Transformaremos la manera',
 			'en que manejas tu día',
 			'UziDay',
-			' es la app que llevará tu productividad al siguiente nivel. Fácilmente y a tu ritmo',
-			'IR A LA APP',
+			' es la app que llevará tu productividad al siguiente nivel. Fácilmente y como en un juego!',
+			'APP',
 			'Aprovecha al máximo tu tiempo',
 			'Uzers opinan',
-			'UziDay es un reto para mí, eso me motiva y me ha ayudado a administrar mi tiempo'
+			'UziDay será un reto para mí, eso me motivará y me ha ayudará a administrar mi tiempo!'
 		],
 		app:[
 			'El método UziDay',
-			'Selecciona tu tarea, su inicio y final',
-			'Consíguelo lo más rápido posible',
-			'El tiempo restante se convierte en UziScore',
-			'Sube de nivel con tu UziScore!'
+			'1) Selecciona tu tarea, su inicio y final',
+			'2) Consíguelo lo más rápido posible',
+			'3) El tiempo restante se convierte en UziScore',
+			'4) Sube de nivel con tu UziScore!'
 		],
 		redes:[
 			'Redes Sociales',
@@ -44,23 +44,23 @@ export default{
 	english:{
 		presentation:[
 			'Change the way',
-			'you handle your day!',
+			'you manage your day!',
 			'UziDay',
-			' is the app that will take your productivity to the next level. Easily and at your own pace',
-			'GO APP',
+			' is the app that will take your productivity to the next level. Easy and like a game',
+			'APP',
 			'Make the most of your time',
 			'Uzers say',
-			'UziDay is a challenge for me, that motivates me and has helped me manage my time'
+			'UziDay will be a huge challenge for me, that will motivate me and help me manage my day!'
 		],
 		lang: 'en',
 		language:'Language',
 		networks: 'Networks',
 		app:[
 			'The UziDay method',
-			'Select your task, its start and end',
-			'Get it as fast as possible',
-			'The remaining time becomes UziScore',
-			'Level up with your UziScore!'
+			'1) Select your task, its start and end',
+			'2) Get it as fast as possible',
+			'3) The remaining time becomes UziScore',
+			'4) Level up with your UziScore!'
 		],
 		redes:[
 			'Social Networks',
